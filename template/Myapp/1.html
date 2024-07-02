@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <link rel="stylesheet" herf="{% static "css/1.css" %}">
+   
+</head>
+<body>
+    <body bgcolor="#03fcdf">
+        <center>
+            <h1><u>{{name}}'s favourites </u></h1>
+        </center>
+<div>
+    <h2>Player:{{Player}} </h2>
+    <h3><a href="https://en.wikipedia.org/wiki/MS_Dhoni">Click here</a></h3>
+    <image src="{% static "image/dhoni.jpg" %}" alt="not avialable" height="500px" width="500px" >
+</div>
+<br><br>
+<div>
+    <h2>Animal:{{lion}} </h2>
+    <h3> <a href="https://en.wikipedia.org/wiki/Animal_(disambiguation)">Click here</a></h3>
+    <image src="{% static "image/lion.jpg" %}" alt="not avialable" height="500px" width="500px">
+</div>
+<br><br>
+<div>
+    <h2>Subject:{{subject}} </h2>
+    <h3><a href="https://en.wikipedia.org/wiki/Subject">Click here</a></h3>
+    <image src="{% static "image/python.jpg" %}" alt="not avialable" height="500px" width="500px">
+</div>
+</body>
+
+</html>
